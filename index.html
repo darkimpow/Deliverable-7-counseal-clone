@@ -1,40 +1,44 @@
 <!doctype>
-<html>     
-	<head>
-		<script src="https://cdn.tailwindcss.com"></script>
-	</head>
-	<body>
-		<div class=md:flex> 
-			<div class="bg-slate-300 h-full md:w-1/2 md:h-screen">          
-			   
+<html>
+
+<head>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+	<div class=md:flex>
+		<div class="bg-slate-300 h-full md:w-1/2 md:h-screen">
+
+			<div>
+
+			</div>
+			<div class="container mx-auto px4">
+
 				<div>
-                             		
+					<img
+						src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" />
 				</div>
-		<div class="container mx-auto px4">
-                                   
-			   <div>
- 				<img src= "https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg"/>
-			   </div>
+			</div>
+
+			<form class="px-20 my-15 md:flex-none md:w-full mx-auto space-y-2">
+				<label class="text-grey-700">Email</label>
+				<input class="w-full py-2 bg-gray0 text-gray-500 px-1 outline-none mb-4" type="email" />
+				<label class="text-grey-700">Password</label>
+				<input class="w-full py-2 bg-gray0 text-gray-500 px-1 outline-none mb-4" type="Password" />
+				<input id="remember" class="mb-4" type="checkbox" />
+				<label for="Remember" class="text-gray-700">Remember Me</label>
+				<p>(Having Trouble?)</p>
+				<button type=submit class="bg-blue-500 w-full">login</button>
+			</form>
 		</div>
 
-			<div class="box border h-631 w-100 p-15 border-2">
-
-  				<form class="mb-6 md:flex-none md:w-full">
-    					<input type="email" id="email" class="" placeholder="Your email" required><br><br>
-  				  	<input type="password" id="password" class="" placeholder="Password" required><br><br>
-				        <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-gray-50 rounded border" required>
-                        		<label for="remember" class="ml-2 text-sm font-medium text-gray-900">Remember me</label><br>           
-     					<p>(Having Trouble?)</p> 
-                                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5">Submit</button> 							
-				</form>
-			</div>
 
 
-			</div>
-			<div class=bg-slate-300 invisible md:"visible" md:w-1/2 md:h-full md:flex-none">
-				<img src="https://source.unsplash.com/random" alt"nature"/>
-			</div>
+		<div class="bg-slate-300 invisible md:visible md:w-1/2 md:h-full md:flex-none">
+			<img src="https://source.unsplash.com/user/c_v_r" alt="random images">
+		</div>
 
-        	</div>     
-	</body>
+	</div>
+</body>
+
 </html>
